@@ -1,0 +1,28 @@
+{
+	"name": "rebuild-vault-index",
+	"version": "1.1.0",
+	"description": "Sidebar button to rescan hidden folders, refresh the file tree, reindex the metadata cache, and reload community plugins.",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"test": "vitest run"
+	},
+	"keywords": [
+		"obsidian",
+		"cache",
+		"reindex",
+		"hidden",
+		"folders"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "22.20.1",
+		"esbuild": "0.25.5",
+		"obsidian": "1.13.1",
+		"obsidian-typings": "6.34.0",
+		"typescript": "5.9.3",
+		"vitest": "3.2.7"
+	}
+}

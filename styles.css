@@ -1,0 +1,29 @@
+.rebuild-vault-index-sidebar {
+	padding: 12px;
+}
+
+.rebuild-vault-index-lead {
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+	margin-bottom: 12px;
+}
+
+.rebuild-vault-index-actions {
+	margin-bottom: 12px;
+}
+
+.rebuild-vault-index-status {
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+	white-space: pre-wrap;
+}
+
+.rebuild-vault-index-status.is-error {
+	color: var(--text-error);
+}
+
+.rebuild-vault-index-paths {
+	margin-top: 8px;
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+}
